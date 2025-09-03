@@ -19,31 +19,6 @@ An AI-powered document processing platform that provides intelligent summarizati
 - **Agent-Based Architecture**: Modular design with specialized agents for different tasks
 - **Validation & Rollback**: Quality checks with automatic rollback for low-quality outputs
 
-## 🏗️ Architecture
-
-The platform follows a modular agent-based architecture:
-
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Streamlit UI  │    │   FastAPI API   │    │  Azure OpenAI   │
-│                 │◄──►│                 │◄──►│                 │
-│  - Upload       │    │  - Documents    │    │  - Summarization│
-│  - Summary      │    │  - Summary      │    │  - Q&A          │
-│  - Q&A          │    │  - Q&A          │    │  - Validation   │
-│  - Monitor      │    │  - MCP          │    │                 │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-                                │
-                       ┌─────────────────┐
-                       │     Agents      │
-                       │                 │
-                       │ - ParserAgent   │
-                       │ - SummarizerAgent│
-                       │ - EntityAgent   │
-                       │ - QAAgent       │
-                       │ - CriticAgent   │
-                       │ - ValidationAgent│
-                       └─────────────────┘
-```
 
 ## 🚀 Quick Start
 
@@ -370,5 +345,6 @@ For support, please:
 
 ---
 
-**Built with ❤️ using Azure OpenAI, FastAPI, and Streamlit**#   G e n - A I  
+**Built with ❤️ using Azure OpenAI, FastAPI, and Streamlit**#   G e n - A I 
+ 
  

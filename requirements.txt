@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+streamlit
+python-dotenv
+autogen
+sqlalchemy
+langsmith
+pydantic
+requests
+python-docx
+PyMuPDF
+beautifulsoup4
+pytest
+pytest-cov

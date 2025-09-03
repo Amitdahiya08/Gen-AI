@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Env
+.env
+
+# Streamlit cache
+.streamlit/
+
+# VSCode
+.vscode/
+uploaded_docs/
